@@ -2,8 +2,18 @@
 /cookbooks
 
 # Bundler
+Gemfile.lock
+Berksfile.lock
 bin/*
 .bundle/*
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
 
 .kitchen/
 .kitchen.local.yml
+
+.cookbook_version
